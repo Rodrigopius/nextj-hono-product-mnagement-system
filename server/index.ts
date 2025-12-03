@@ -9,7 +9,7 @@ const app = new Hono();
 
 // Enable CORS for frontend
 app.use('/*', cors({
-  origin: ['http://https://nextj-hono-product-mnagement-system.vercel.app'], // Your Next.js frontend
+  origin: ['https://nextj-hono-product-mnagement-system.vercel.app'], // Your Next.js frontend
   allowHeaders: ['Content-Type', 'Authorization'],
   allowMethods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
   exposeHeaders: ['Content-Length'],
