@@ -3,7 +3,7 @@ import { cors } from 'hono/cors';
 import { z } from 'zod';
 import { zValidator } from '@hono/zod-validator';
 import { serve } from '@hono/node-server';
-import { productsCollection, categoriesCollection } from '../firebase/firebase';
+import { productsCollection, categoriesCollection } from './firebase/firebase';
 
 const app = new Hono();
 
